@@ -27,10 +27,16 @@ class Aula:
         for presenca in presencas:
             print(presenca)
 
-professor = Professor("Lucas")
-aluno1 = Aluno("Maria")
-aluno2 = Aluno("Pedro")
-aula = Aula(professor, "Programação Orientada a Objetos")
-aula.adicionar_aluno(aluno1)
-aula.adicionar_aluno(aluno2)
+# professor = Professor("Lucas")
+# aluno1 = Aluno("Maria")
+# aluno2 = Aluno("Pedro")
+# aula = Aula(professor, "Programação Orientada a Objetos")
+# aula.adicionar_aluno(aluno1)
+# aula.adicionar_aluno(aluno2)
+# aula.listar_presenca()
+
+prof2 = Professor("Chris")
+aluno3 = Aluno("Matheus")
+aula = Aula(prof2, "C214")
+aula.adicionar_aluno(aluno3)
 aula.listar_presenca()
